@@ -1,0 +1,13 @@
+{
+  "name": "cloud-soc-investigation-platform-api",
+  "version": "1.0.0",
+  "description": "API integration for the Cloud SOC Incident Response & Investigation Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.2"
+  }
+}
