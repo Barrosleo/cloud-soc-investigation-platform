@@ -13,7 +13,6 @@ A Cloud-Based SOC Incident Response & Investigation Platform that automates secu
 - [Project Structure](#project-structure)
 - [Future Enhancements](#future-enhancements)
 - [License](#license)
-- [Contact](#contact)
 
 ## Overview
 
@@ -79,7 +78,7 @@ node server.js
 4.  **Access the Dashboard**
 Open your browser at: http://localhost:3000/dashboard
 
-### Usage
+## Usage
 
 **Alert Ingestion:** The Python script ingest_alerts.py reads sample security alerts from sample_data/security_alerts.json.
 
@@ -89,7 +88,7 @@ Open your browser at: http://localhost:3000/dashboard
 
 **Dashboard:** The Node.js API aggregates alert data and serves an interactive dashboard for SOC analysis.
 
-### Project Structure
+## Project Structure
 ```bash
 cloud-soc-investigation-platform/
 ├── README.md
@@ -108,7 +107,7 @@ cloud-soc-investigation-platform/
 │   └── views/
 │         └── dashboard.html
 ```
-### Future Enhancements
+## Future Enhancements
 Integrate with live SIEM or cloud data sources.
 
 Enhance threat intelligence enrichment with API calls to services like VirusTotal or MISP.
@@ -117,5 +116,5 @@ Improve automated reporting with detailed forensic analysis.
 
 Add user authentication and role-based access to the dashboard.
 
-### License
+## License
 This project is licensed under the MIT License.
