@@ -58,7 +58,7 @@ For detailed information on the architecture, please refer to the [docs/architec
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/cloud-soc-investigation-platform.git
+   git clone https://github.com/Barrosleo/cloud-soc-investigation-platform.git
    cd cloud-soc-investigation-platform
    ```
 2.  **Set Up the Python Module**
